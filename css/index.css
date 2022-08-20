@@ -42,7 +42,6 @@ nav .nav-items {
 }
 .intro-section {
   display: flex;
-  
   flex: 1;
 }
 .left-section {
@@ -119,6 +118,7 @@ nav .nav-items {
 
 }
 .right-section {
+  
 }
 .headphone-div .discount {
   z-index: 1;
@@ -200,6 +200,54 @@ div.intro-section > div.right-section > div.headphone-div > img:nth-child(3) {
  ;
 }
 /* time=1.5hr */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  nav>.nav-items{
+    display: none;
+  }
+}
+@media screen and (max-width: 940px) and (min-width:480px){
+  .intro-section{
+    flex-wrap: wrap;
+  }
+
+  body > div.intro-section > div.right-section > div.headphone-div>img {
+    object-fit: contain;
+    
+    
+  
+    margin-left: 100px;
+    width: 280px;
+  }
+  #myimage{
+    position: relative;
+    right:132px;
+    top:185px;
+
+    /* background-color: #fbd107; */
+    height: 100px;
+  }
+  .headphone-div .discount-content>*{
+    position: relative;
+    left:90px;
+    font-size: 12px;
+    bottom:50px;
+    width:200px;
+    /* background-color: #fbd107; */
+
+  }
+  .dots{
+    position: relative;
+  bottom:100px
+  }
+  body > div.intro-section > div.right-section > button{
+    position: relative;
+    bottom:90px;
+    
+    right:30px;
+    
+  }
+}
+  
 
 
 @media screen and  (max-width:480px)  {
