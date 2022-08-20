@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 a { color: inherit; 
   text-decoration: none;}
@@ -203,6 +203,10 @@ div.intro-section > div.right-section > div.headphone-div > img:nth-child(3) {
 
 
 @media screen and  (max-width:480px)  {
+  html, body {
+    /* max-width: 120%; */
+    overflow-x: hidden;
+}
   nav {
     display: block;
     height: 25vh;
