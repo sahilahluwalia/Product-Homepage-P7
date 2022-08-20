@@ -149,7 +149,7 @@ div.intro-section > div.right-section > div.headphone-div > img:nth-child(3) {
   height: 450px;
   margin-bottom: -200px;
   margin-right: 50px;
-  background-color: black;
+  /* background-color: black; */
 }
 .right-section > .dots {
   display: flex;
@@ -207,18 +207,21 @@ div.intro-section > div.right-section > div.headphone-div > img:nth-child(3) {
     display: block;
     height: 25vh;
   }
+  body{
+    padding-bottom: 150px;
+  }
   nav .nav-items{
     display: block;
-    margin-left:180px
+    margin-left:125px
   }
   nav img:nth-child(1) {
     position: relative;
-    left:150px;  
+    left:90px;  
     margin-top:20px
   }
   nav img:nth-child(3) {
     position: relative;
-    left:50px;
+    left:20px;
     margin-top:00px
   }
   .intro-section{
@@ -227,11 +230,58 @@ div.intro-section > div.right-section > div.headphone-div > img:nth-child(3) {
   .left-section{
     margin-left: 20px;
   }
+  .left-section>h3{
+    font-size: 30px;
+  }
+  .left-section>h1{
+    font-size: 40px;
+    
+  }
   .sub-headlines{
     margin-left: 20px;
   }
+  .sub-headlines>h5{
+    font-size: 16px;
+  }
   .headphone-div {
     position: relative;
-    left: 80px;
+    /* left: 80px; */
+    height:80px;
+
+    
+  }
+  .dots{
+    position: relative;
+    top:220px
+  }
+  body > div.intro-section > div.right-section > div.headphone-div>img {
+    object-fit: contain;
+    height: 100%;
+    background-image:none;
+    width: inherit;
+  
+    margin-left: 40px;
+    width: 300px;
+  }
+  #myimage{
+    position: relative;
+    right:132px;
+    top:185px;
+
+    /* background-color: #fbd107; */
+    height: 100px;
+  }
+  .headphone-div .discount-content>*{
+    position: relative;
+    left:40px;
+    font-size: 12px;
+    bottom:50px;
+    width:200px
+  }
+  body > div.intro-section > div.right-section > button{
+    position: relative;
+    top:220px;
+    right:60px;
+    
   }
 }
